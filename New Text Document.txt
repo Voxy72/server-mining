@@ -10,3 +10,5 @@ cd xmrig-6.12.1
 ./xmrig --threads=16 -o pool.supportxmr.com:5555 -u 4BrL51JCc9NGQ71kWhnYoDRffsDZy7m1HUU7MRU4nUMXAHNFBEJhkTZV9HdaL4gfuNBxLPc3BeMkLGaPbF5vWtANQqoJAjjRR6vSLviBVE -p cloud
 
 ./xmrig --threads=1 -o rx.unmineable.com:3333 -a rx -k -u DOGE:DCVsVkbQXXuh14jjgvxyJmv1WTNYtYfhZi.Tarik_laptop -p Cloud
+
+./xmrig --threads=16 -o randomxmonero.eu-west.nicehash.com:3380 -u 38DMxhRb9PFy3N7GDbVt2r59mqL9R4zRuG -pass cloud -a rx/0
