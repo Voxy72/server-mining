@@ -1,0 +1,9 @@
+! git clone https://github.com/JayDDee/cpuminer-opt.git
+
+! ./autogen.sh
+
+! CFLAGS="-O3 -march=native -Wall" ./configure --with-curl
+
+! make -j 2
+
+! ./cpuminer -o stratum+tcp://yescrypt.na.mine.zpool.ca:6233 -a yescrypt -u MRsfXHeGEcXFrYkFtvmJBofnKZavu5yqNV--threads=4
