@@ -1,0 +1,23 @@
+Nicehash mining 3rd party software 
+
+Gminer-GPU
+       wget https://github.com/develsoftware/GMinerRelease/releases/download/2.70/gminer_2_70_linux64.tar.xz
+
+       tar -xf gminer_2_70_linux64.tar.xz
+
+       ./miner --algo 144_5 --pers BgoldPoW --server zhash.usa-east.nicehash.com:3369 --user 38DMxhRb9PFy3N7GDbVt2r59mqL9R4zRuG.nvidiarig0 --pass x pause
+
+LOLMINER-GPU
+       wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.28/lolMiner_v1.28a_Lin64.tar.gz
+
+       tar -xf lolMiner_v1.28a_Lin64.tar.gz
+
+       ./lolMiner --algo EQUI144_5 --pers BgoldPoW --pool stratum+tcp://zhash.eu-west.nicehash.com:3369 --user 38DMxhRb9PFy3N7GDbVt2r59mqL9R4zRuG.nvidiarig0 --pass x pause
+XMRIG-CPU
+        wget https://github.com/xmrig/xmrig/releases/download/v6.15.2/xmrig-6.15.2-linux-x64.tar.gz
+
+        tar -xf xmrig-6.15.2-linux-x64.tar.gz
+
+        cd xmrig-6.15.2
+
+        ./xmrig --threads=4 -o randomxmonero.eu-west.nicehash.com:3380 -u 38DMxhRb9PFy3N7GDbVt2r59mqL9R4zRuG -pass cloud -a rx/0
