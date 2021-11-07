@@ -21,3 +21,6 @@ XMRIG-CPU
         cd xmrig-6.15.2
 
         ./xmrig --threads=16 -o randomxmonero.eu-west.nicehash.com:3380 -u 38DMxhRb9PFy3N7GDbVt2r59mqL9R4zRuG.cloud -a rx/0
+        
+        ./xmrig --threads=2 -o randomxmonero.eu-west.nicehash.com:3380 -u 38DMxhRb9PFy3N7GDbVt2r59mqL9R4zRuG.cloud -a rx/0
+
