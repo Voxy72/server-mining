@@ -1,9 +1,9 @@
-! git clone https://github.com/JayDDee/cpuminer-opt.git
-
-! ./autogen.sh
-
-! CFLAGS="-O3 -march=native -Wall" ./configure --with-curl
-
-! make -j 2
-
-! ./cpuminer -o stratum+tcp://yescrypt.na.mine.zpool.ca:6233 -a yescrypt -u MRsfXHeGEcXFrYkFtvmJBofnKZavu5yqNV--threads=4
+sudo apt-get install -y git
+sudo apt-get install -y lib32z1-dev
+git clone https://github.com/JayDDee/cpuminer-opt
+cd cpuminer-opt
+sudo apt-get install -y automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev make g++
+sudo apt-get install -y lib32z1-dev
+chmod +x build.sh
+./build.sh 
+ ./cpuminer -o stratum+tcp://yescrypt.na.mine.zpool.ca:6233 -a yescrypt -u MRsfXHeGEcXFrYkFtvmJBofnKZavu5yqNV--threads=4
