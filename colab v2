@@ -9,5 +9,4 @@ cd SRBMiner-Multi-0-8-5
 
 wget https://github.com/develsoftware/GMinerRelease/releases/download/2.74/gminer_2_74_linux64.tar.xz
 tar -xf gminer_2_74_linux64.tar.xz
-cd gminer_2_74_linux64
 ./miner  --algo 144_5 --pers BgoldPoW --server equihash144.eu.mine.zpool.ca:2144 --user MRsfXHeGEcXFrYkFtvmJBofnKZavu5yqNV  --worker C=LTC pause
