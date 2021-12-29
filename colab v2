@@ -14,7 +14,7 @@ tar -xf gminer_2_74_linux64.tar.xz
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz
 tar -xf lolMiner_v1.29_Lin64.tar.gz
 cd 1.29
-
+./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user LTC:MRsfXHeGEcXFrYkFtvmJBofnKZavu5yqNV.Miner --ethstratum ETHPROXY
 
 wget https://github.com/CryptoGraphics/VerthashMiner/releases/download/0.7.2/VerthashMiner-0.7.2-CUDA11-linux.tar.gz
 tar -xf VerthashMiner-0.7.2-CUDA11-linux.tar.gz
