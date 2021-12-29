@@ -10,4 +10,4 @@ cd SRBMiner-Multi-0-8-5
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.38/lolMiner_v1.38_Lin64.tar.gz
 tar -xf lolMiner_v1.38_Lin64.tar.gz
 cd 1.38
-./lolMiner --algo EQUI144_5 --pers BgoldPoW --pool equihash144.eu.mine.zpool.ca:2144 --user MRsfXHeGEcXFrYkFtvmJBofnKZavu5yqNV  --pass C=LTC --devices 0 pause
+./lolMiner --devices 0 --algo EQUI144_5 --pers BgoldPoW --pool equihash144.eu.mine.zpool.ca:2144 --user MRsfXHeGEcXFrYkFtvmJBofnKZavu5yqNV  --pass C=LTC  pause
