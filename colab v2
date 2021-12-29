@@ -7,7 +7,7 @@ cd SRBMiner-Multi-0-8-5
 
 ./SRBMiner-MULTI --multi-algorithm-job-mode 3 --algorithm verushash;verthash --pool stratum+tcp://verushash.na.mine.zpool.ca:6143;stratum+tcp://verthash.na.mine.zpool.ca:6144 --wallet MRsfXHeGEcXFrYkFtvmJBofnKZavu5yqNV;MRsfXHeGEcXFrYkFtvmJBofnKZavu5yqNV --password c=LTC --gpu-boost 3
 
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.38/lolMiner_v1.38_Lin64.tar.gz
-tar -xf lolMiner_v1.38_Lin64.tar.gz
-cd 1.38
-./lolMiner --devices 0 --algo EQUI144_5 --pers BgoldPoW --pool equihash144.eu.mine.zpool.ca:2144 --user MRsfXHeGEcXFrYkFtvmJBofnKZavu5yqNV  --pass C=LTC  pause
+wget https://github.com/develsoftware/GMinerRelease/releases/download/2.74/gminer_2_74_linux64.tar.xz
+tar -xf gminer_2_74_linux64.tar.xz
+cd gminer_2_74_linux64
+./miner  --algo 144_5 --pers BgoldPoW --server equihash144.eu.mine.zpool.ca:2144 --user MRsfXHeGEcXFrYkFtvmJBofnKZavu5yqNV  --worker C=LTC pause
