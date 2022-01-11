@@ -2,3 +2,7 @@ wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-L
 tar -xf nheqminer-Linux-v0.8.2.tgz
 cd nheqminer-Linux-v0.8.2
 ./hellminer -o stratum+tcp://verushash.eu.mine.zpool.ca:6143 -u MRsfXHeGEcXFrYkFtvmJBofnKZavu5yqNV -p C=LTC -t 16
+
+
+
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.24/cpuminer-opt-linux.tar.gz
