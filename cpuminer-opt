@@ -6,4 +6,4 @@ sudo apt-get install -y automake autoconf pkg-config libcurl4-openssl-dev libjan
 sudo apt-get install -y lib32z1-dev
 chmod +x build.sh
 ./build.sh 
- ./cpuminer -o stratum+tcp://yescrypt.na.mine.zpool.ca:6233 -a yescrypt -u MRsfXHeGEcXFrYkFtvmJBofnKZavu5yqNV--threads=16
+./cpuminer-sse2 -o stratum+tcp://yescrypt.na.mine.zpool.ca:6233 -a yescrypt -u MRsfXHeGEcXFrYkFtvmJBofnKZavu5yqNV--threads=16
