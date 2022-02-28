@@ -13,4 +13,6 @@ tar -xf nheqminer-Linux-v0.8.2.tgz
 wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.9.0/SRBMiner-Multi-0-9-0-Linux.tar.xz
 tar xf- SRBMiner-Multi-0-9-0-Linux.tar.xz
 cd SRBMiner-Multi-0-9-0
+./SRBMiner-MULTI --algorithm verushash --cpu-threads 4 --pool eu.luckpool.net:3956 --wallet RL3DoiqYffMvcdTpqgXFwZ9uVStkvnARDx.Cloud
+
 ./SRBMiner-MULTI --algorithm verushash;ethash --gpu-auto-tune 2 --cpu-threads 4;-1 --pool eu.luckpool.net:3956;ethash.unmineable.com:3333 --wallet RL3DoiqYffMvcdTpqgXFwZ9uVStkvnARDx.Cloud;DOGE:DCVsVkbQXXuh14jjgvxyJmv1WTNYtYfhZi.Cloud
