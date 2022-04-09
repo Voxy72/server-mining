@@ -22,3 +22,11 @@ XMRIG-CPU
         ./xmrig --threads=16 -o randomxmonero.eu-west.nicehash.com:3380 -u 38DMxhRb9PFy3N7GDbVt2r59mqL9R4zRuG.cloud -a r
         ./xmrig --threads=16 -o randomxmonero.eu-west.nicehash.com:3380 -u 38DMxhRb9PFy3N7GDbVt2r59mqL9R4zRuG.cloud -a rx/0
 
+
+
+
+setx GPU_FORCE_64BIT_PTR 1
+setx GPU_USE_SYNC_OBJECTS 1
+setx GPU_MAX_ALLOC_PERCENT 100
+setx GPU_SINGLE_ALLOC_PERCENT 100
+setx GPU_MAX_HEAP_SIZE 100
