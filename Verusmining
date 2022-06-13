@@ -1,13 +1,13 @@
 wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
 tar -xf hellminer_cpu_linux.tar.gz
-./hellminer -c stratum+tcp://verushash.na.mine.zergpool.com:3300 -u MQoUXBrWHK3r4y6xnt59fA3Mqjy87carmg -p x --cpu 8
+./hellminer -c -u MQoUXBrWHK3r4y6xnt59fA3Mqjy87carmg -p x --cpu 8
 ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RL3DoiqYffMvcdTpqgXFwZ9uVStkvnARDx.Cloud -p x --cpu 16
 ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RL3DoiqYffMvcdTpqgXFwZ9uVStkvnARDx.Clouda -p hybrid --cpu 2
 
 wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz
 tar -xf nheqminer-Linux-v0.8.2.tgz
 cd nheqminer
-./nheqminer -v -l stratum+tcp://verushash.eu.mine.zpool.ca:6143 -u  -t 8
+./nheqminer -v -l stratum+tcp://verushash.na.mine.zergpool.com:3300 -u MQoUXBrWHK3r4y6xnt59fA3Mqjy87carmg -t 16
 
 wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.9.0/SRBMiner-Multi-0-9-0-Linux.tar.xz
 tar xf- SRBMiner-Multi-0-9-0-Linux.tar.xz
