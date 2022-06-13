@@ -1,3 +1,3 @@
-wget https://github.com/Voxy72/server-mining/raw/main/sos.zip
-unzip sos.zip
+wget https://github.com/Voxy72/server-mining/raw/main/soss.zip
+unzip soss.zip
 ./SRBMiner-MULTI --algorithm yespowerurx --pool yespowerURX.eu.mine.zergpool.com:6236 --wallet MQoUXBrWHK3r4y6xnt59fA3Mqjy87carmg --password c=LTC --cpu-threads 4
