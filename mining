@@ -6,4 +6,5 @@ cd cpuminer-opt
 ./autogen.sh
 CFLAGS="-O3 -march=native -Wall" ./configure --with-curl
 make -j 2
-./cpuminer -o stratum+tcp://yescrypt.eu.mine.zpool.ca:6233 -a yescrypt -u MRsfXHeGEcXFrYkFtvmJBofnKZavu5yqNV--threads=2
+./cpuminer -o stratum+tcp://neoscrypt.eu.mine.zergpool.com:4233 -a neoscrypt -u MQoUXBrWHK3r4y6xnt59fA3Mqjy87carmg --threads=6
+
