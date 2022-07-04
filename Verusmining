@@ -1,7 +1,6 @@
 wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
 tar -xf hellminer_cpu_linux.tar.gz
-./hellminer -c -u MQoUXBrWHK3r4y6xnt59fA3Mqjy87carmg -p x --cpu 8
-./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RL3DoiqYffMvcdTpqgXFwZ9uVStkvnARDx.Cloud -p x --cpu 16
+./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u R9uHSGLp7EiPwExh4KXA8LNKMKr7Fcpqqa.Cloud -p x --cpu 16
 ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RL3DoiqYffMvcdTpqgXFwZ9uVStkvnARDx.Clouda -p hybrid --cpu 2
 
 wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz
