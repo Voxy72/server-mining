@@ -1,0 +1,4 @@
+wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.9.7/SRBMiner-Multi-0-9-7-Linux.tar.xz
+tar -xf SRBMiner-Multi-0-9-7-Linux.tar.xz
+cd SRBMiner-Multi-0-9-7
+./SRBMiner-MULTI --algorithm panthera --pool de.scala.herominers.com:1190 --wallet Ssy2A5WgRpkfc4HJb9WpSkN6dqD5jnRaTdKyip5mxEiQQwSwBzrqW6777kvTaMjqYWLTNonky8CtrcYUDYVviynM4dfqtgQ1ki --password CPU --cpu-threads 4
