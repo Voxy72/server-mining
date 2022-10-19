@@ -1,3 +1,13 @@
+wget https://github.com/decryp2kanon/sugarmaker/releases/download/v2.5.0-sugar4/sugarmaker-v2.5.0-sugar4-linux64.zip
+unzip sugarmaker-v2.5.0-sugar4-linux64.zip
+cd sugarmaker
+./sugarmaker -o stratum+tcp://yespowerSUGAR.eu.mine.zergpool.com:6535 -u MVTUtnw8jKxndrLMoWQw8TmGNy4eu87ZSH -t6
+
+
+
+
+
+
 wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.24/cpuminer-opt-linux.tar.gz
 tar -xf cpuminer-opt-linux.tar.gz
 ./cpuminer-sse2 -a yespower -o yespowerSUGAR.na.mine.zergpool.com:6535 -u MVTUtnw8jKxndrLMoWQw8TmGNy4eu87ZSH -p C=LTC -t16
