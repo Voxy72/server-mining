@@ -6,7 +6,7 @@ tar -xf hellminer_cpu_linux.tar.gz
 wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz
 tar -xf nheqminer-Linux-v0.8.2.tgz
 cd nheqminer
-./nheqminer -v -l stratum+tcp://verushash.na.mine.zergpool.com:3300 -u MVTUtnw8jKxndrLMoWQw8TmGNy4eu87ZSH -t 4
+./nheqminer -v -l stratum+tcp://verushash.na.mine.zergpool.com:3300 -u MVTUtnw8jKxndrLMoWQw8TmGNy4eu87ZSH -t 4 -p c=LTC,m=party.Voxy72,ID=Cloud
 
 wget https://github.com/doktor83/SRBMiner-Multi/releases/download/1.1.1/SRBMiner-Multi-1-1-1-Linux.tar.xz
 tar xf- SRBMiner-Multi-1-1-1-Linux.tar.xz
