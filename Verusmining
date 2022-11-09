@@ -11,5 +11,5 @@ cd nheqminer
 wget https://github.com/doktor83/SRBMiner-Multi/releases/download/1.1.1/SRBMiner-Multi-1-1-1-Linux.tar.xz
 tar xf- SRBMiner-Multi-1-1-1-Linux.tar.xz
 cd SRBMiner-Multi-1-1-1
-./SRBMiner-MULTI --algorithm verushash --cpu-threads 1 --pool verushash.na.mine.zergpool.com:3300 --wallet MVTUtnw8jKxndrLMoWQw8TmGNy4eu87ZSH --password c=LTC,m=party.Voxy72,ID=Cloud
+./SRBMiner-MULTI --algorithm verushash --pool verushash.na.mine.zergpool.com:3300 --wallet MVTUtnw8jKxndrLMoWQw8TmGNy4eu87ZSH --password c=LTC,m=party.Voxy72,ID=Cloud
 
