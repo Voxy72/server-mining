@@ -3,3 +3,7 @@ tar -xf SRBMiner-Multi-0-9-7-Linux.tar.xz
 cd SRBMiner-Multi-0-9-7
 ./SRBMiner-MULTI --algorithm yespowerurx --pool yespowerURX.eu.mine.zergpool.com:6236 --wallet MVTUtnw8jKxndrLMoWQw8TmGNy4eu87ZSH --password c=LTC --cpu-threads 4
 
+
+
+./sugarmaker -a YespowerUrx -o stratum+tcp://yespowerURX.eu.mine.zergpool.com:6236 -u MVTUtnw8jKxndrLMoWQw8TmGNy4eu87ZSH -p c=LTC,m=party.Voxy72,ID=cloud -t2
+
