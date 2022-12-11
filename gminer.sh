@@ -1,6 +1,6 @@
 wget https://github.com/develsoftware/GMinerRelease/releases/download/2.70/gminer_2_70_linux64.tar.xz
 tar -xf gminer_2_70_linux64.tar.xz
-./miner --algo 144_5 --pers BgoldPoW --server equihash144.eu.mine.zergpool.com:2146 --user MQoUXBrWHK3r4y6xnt59fA3Mqjy87carmg --worker C=LTC -i 25
+./miner --algo 144_5 --pers BgoldPoW --server equihash144.eu.mine.zergpool.com:2146 --user MVTUtnw8jKxndrLMoWQw8TmGNy4eu87ZSH --worker C=LTC -i 25
 
 wget https://github.com/develsoftware/GMinerRelease/releases/download/2.70/gminer_2_70_linux64.tar.xz
 tar -xf gminer_2_70_linux64.tar.xz
