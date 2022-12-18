@@ -4,5 +4,7 @@ cd xmrig-6.15.2
 ./xmrig --threads=4 -a rx/0 -o gulf.moneroocean.stream:10128 -u 4BBUMhG1HPxKrimFS3qwt7jJJ3q6NfkJeCPNZzBrgtYoNGf7NkeLGUKJecuneus9Sy8Vc5Gzu6STqguBcJA3uhFCQBF6kDa -p cloud
 
 ./xmrig --threads=4 -a panthera -o gulf.moneroocean.stream:10128 -u 4BBUMhG1HPxKrimFS3qwt7jJJ3q6NfkJeCPNZzBrgtYoNGf7NkeLGUKJecuneus9Sy8Vc5Gzu6STqguBcJA3uhFCQBF6kDa -p cloud
-
 ./xmrig --threads=4 -a cn/gpu -o gulf.moneroocean.stream:10128 -u 4BBUMhG1HPxKrimFS3qwt7jJJ3q6NfkJeCPNZzBrgtYoNGf7NkeLGUKJecuneus9Sy8Vc5Gzu6STqguBcJA3uhFCQBF6kDa -p cloud
+
+
+-a cryptonight-upx/2 -o stratum+tcp://cryptonight_upx.eu.mine.zergpool.com:4457 -u MVTUtnw8jKxndrLMoWQw8TmGNy4eu87ZSH --keepalive --timeout 120 --donate-level 1 -p c=LTC,mc=UPX/WRKZ,ID=Phonev2
