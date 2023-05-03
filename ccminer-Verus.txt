@@ -1,0 +1,3 @@
+proot-distro login debian
+cd ccminer 
+./ccminer -a verus -o stratum+tcp://eu.luckpool.net:3960 -u RL3DoiqYffMvcdTpqgXFwZ9uVStkvnARDx.A11 -p d=500000,hybrid -d 500000
